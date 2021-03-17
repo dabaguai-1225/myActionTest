@@ -1,11 +1,4 @@
-package com.oocourse.spec1.main;
-
 import java.math.BigInteger;
-
-import com.oocourse.spec1.exceptions.EqualPersonIdException;
-import com.oocourse.spec1.exceptions.EqualRelationException;
-import com.oocourse.spec1.exceptions.PersonIdNotFoundException;
-import com.oocourse.spec1.exceptions.RelationNotFoundException;
 
 public interface Network {
     

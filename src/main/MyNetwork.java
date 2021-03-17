@@ -1,10 +1,3 @@
-import com.oocourse.spec1.exceptions.EqualPersonIdException;
-import com.oocourse.spec1.exceptions.EqualRelationException;
-import com.oocourse.spec1.exceptions.PersonIdNotFoundException;
-import com.oocourse.spec1.exceptions.RelationNotFoundException;
-import com.oocourse.spec1.main.Network;
-import com.oocourse.spec1.main.Person;
-
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.HashMap;

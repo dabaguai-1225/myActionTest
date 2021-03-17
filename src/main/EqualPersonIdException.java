@@ -1,5 +1,3 @@
-package com.oocourse.spec1.exceptions;
-
 @SuppressWarnings("serial")
 public class EqualPersonIdException extends Exception {
     private String message;

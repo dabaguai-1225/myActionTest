@@ -1,5 +1,3 @@
-import com.oocourse.spec1.main.Person;
-
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.HashMap;

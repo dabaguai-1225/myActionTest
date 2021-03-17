@@ -1,5 +1,3 @@
-package com.oocourse.spec1.exceptions;
-
 @SuppressWarnings("serial")
 public class EqualRelationException extends Exception {
     private String message;

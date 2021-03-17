@@ -1,5 +1,3 @@
-package com.oocourse.spec1.main;
-
 import java.math.BigInteger;
 
 public interface Person extends Comparable<Person> {

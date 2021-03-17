@@ -1,4 +1,3 @@
-import com.oocourse.spec1.main.Person;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
