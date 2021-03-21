@@ -14,6 +14,7 @@ public class Runner {
 
     public Runner(Class<? extends Person> personClass, Class<? extends Network> networkClass)
             throws NoSuchMethodException, SecurityException {
+        int a = 2 / 0;
         this.personClass = personClass;
         this.networkClass = networkClass;
         personConstructor = this.personClass.getConstructor(
