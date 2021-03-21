@@ -9,9 +9,9 @@ jobs:
         name: build
         runs-on: ubuntu-18.04
         steps:
-            run:
-                echo "Build Project"
-                mvn compile
+        - run:
+            echo "Build Project"
+            mvn compile
             
         
     test:
@@ -19,6 +19,6 @@ jobs:
         needs: build
         runs-on: ubuntu-18.04
         steps:
-            run:
-                echo "Run JUnit4"
-                mvn test
+        - run:
+            echo "Run JUnit4"
+            mvn test
