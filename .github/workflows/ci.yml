@@ -1,0 +1,24 @@
+name: GitHub Actions Demo
+on:
+  push:
+    branches:    
+      - master
+
+jobs:
+    build:
+        name: build
+        runs-on: ubuntu-18.04
+        steps:
+            run:
+                echo "Build Project"
+                mvn compile
+            
+        
+    test:
+        name: test
+        needs: build
+        runs-on: ubuntu-18.04
+        steps:
+            run:
+                echo "Run JUnit4"
+                mvn test
